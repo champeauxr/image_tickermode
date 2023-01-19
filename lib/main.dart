@@ -49,9 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             TickerMode(
               enabled: _tickerEnabled,
-              child: Image.asset('assets/17644.png'),
+              child: Image.asset('assets/lockup_built-w-flutter.png'),
             ),
-            const Text('Image by rawpixel.com on Freepik.com'),
             const SizedBox(height: 32),
             Row(
               children: [
